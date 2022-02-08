@@ -1,0 +1,13 @@
+h4 {
+  color: white;
+  padding-top: 20px;
+}
+p.tm-para {
+  color: beige;
+}
+button.ct {
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  background: orange;
+}

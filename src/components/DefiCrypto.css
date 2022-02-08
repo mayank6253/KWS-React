@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Noto+Serif:ital,wght@1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+}
+
+.deficrypto-container {
+  text-align: center;
+  background: black;
+  max-width: 100%;
+}
+.heading {
+  color: #707376;
+}
+h1.deficrypto {
+  color: white;
+  font-family: "Noto Serif";
+  font-size: 24px;
+  padding: 25px 371px 15px;
+}
+p.para-ficrypto {
+  padding: 10px 230px 10px;
+  font-family: inherit;
+  font-size: 18px;
+}
+svg {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: white;
+}
+.crypto-container {
+  background: #73aee1;
+}
+.cc {
+  text-align: center;
+}
+h2.currrency {
+  padding: 30px 0px 30px;
+  font-size: 45px;
+  font-family: "Font Awesome 5 Free";
+  text-shadow: -1px 1px whitesmoke;
+  font-weight: 700;
+  color: white;
+}
+p.developement {
+  color: white;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0px 120px 30px;
+}
+button.c-t {
+  margin-bottom: 20px;
+  width: 170px;
+  height: 50px;
+  font-size: 16px;
+  color: white;
+  background: #d28d0e;
+}
+u {
+  text-decoration: none;
+  transition: 0.5s;
+}
+u:hover {
+  color: #bc5f0f;
+}
+.col:hover {
+  background: #3392e6;
+  color: white;
+}
+
+h1.benefits {
+  padding: 10px 0px 10px;
+  text-shadow: 1px -1px black;
+}
+h2.benefits {
+  font-size: 22px;
+  text-shadow: 0 0 black;
+  font-family: system-ui;
+  text-align: center;
+}
+
+.col {
+  max-height: 700px;
+  column-gap: 19px;
+  padding: 40px 11px 40px;
+  margin: 10px 100px 10px;
+  column-count: 2;
+  text-align: center;
+}
+p.benefits-currency {
+  font-size: 18px;
+  font-family: emoji;
+  line-height: 35px;
+  padding: 4px 50px 15px;
+  transition: 0.7s;
+}
+p.benefits-currency:hover {
+  transform: skewX(8deg);
+}

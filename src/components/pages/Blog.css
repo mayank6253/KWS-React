@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Noto+Serif:ital,wght@1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Aclonica", sans-serif;
+}
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  display: grid;
+}
+
+.section h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: #0dcaf0;
+  font-size: 22px;
+  font-weight: 200;
+  z-index: 1;
+  opacity: 0.9;
+}
+h1.problem {
+  color: white;
+  font-size: 46px;
+  font-weight: 700;
+}
+h1.lost {
+  color: white;
+  font-size: 27px;
+  font-weight: 700;
+}
+h1.error {
+  color: #f08194;
+  font-weight: 700;
+  font-size: 210px;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+button.home-page {
+  width: 180px;
+  padding: 17px;
+  border-radius: 30px;
+  font-size: 19px;
+  border: none;
+  color: white;
+  background: #eb431d;
+}
+*
+/* .navbar-contanier {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  z-index: 0; 
+}
+
+video {
+  object-fit: cover;
+  z-index: -1;
+}
+
+.blog-container {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+h1.problem {
+  text-align: center;
+  padding-top: 20px;
+  color: #0dcaf0;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+h1.lost {
+  text-align: center;
+  padding-top: 15px;
+  color: #f8f9fa;
+  font-size: 53px;
+  font-weight: 500;
+}
+
+h1.error {
+  text-align: center;
+  padding-top: 2px;
+  color: #f17084;
+  font-size: 210px;
+  font-weight: 500;
+  font-family: fantasy;
+}
+button.home-page {
+  width: 180px;
+  padding: 17px;
+  border-radius: 30px;
+  font-size: 19px;
+  border: none;
+  color: white;
+  background: #eb431d;
+} */
+
+/* Bottom container */
+
+.container-bottom {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #3cbce6;
+  color: white;
+  padding: 100px 100px 100px;
+}
+.bottom {
+  width: 100%;
+  padding: 10px 0px 10px;
+}
+.bottom-right {
+  width: 100%;
+  padding: 10px 10px 10px;
+}
+p.left-para {
+  font-size: 19px;
+  line-height: 30px;
+  width: 80%;
+}
+p.right-para-1 {
+  font-size: 19px;
+  line-height: 30px;
+  width: 90%;
+}
+p.right-para-2 {
+  font-size: 19px;
+  line-height: 30px;
+  width: 90%;
+}
+button.wa {
+  width: 180px;
+  height: 63px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: -9px 2px #b3a9a9;
+  font-size: 24px;
+}
+fab,
+.far {
+  font-weight: 400;
+  font-size: 25px;
+}
+h6.www {
+  font-size: 25px;
+  font-family: "Aclonica", sans-serif;
+}
+h3.dnw {
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 35px;
+  font-family: "Aclonica", sans-serif;
+}
+h2.left-text {
+  font-size: 54px;
+  font-family: "Aclonica", sans-serif;
+}
+
+/* Footer contanier */
+
+.footer-container {
+  width: 100%;
+  height: 100%;
+  background: black;
+  color: white;
+}
+
+@media screen and (max-width: 912px) {
+  .container-bottom {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background: #3cbce6;
+    color: white;
+    padding: 100px 100px 100px;
+  }
+  h1.lost {
+    text-align: center;
+    padding-top: 15px;
+    color: #f8f9fa;
+    font-size: 39px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .container-bottom {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background: #3cbce6;
+    color: white;
+    padding: 100px 12px 100px;
+  }
+  p.left-para {
+    font-size: 16px;
+    line-height: 18px;
+    width: 80%;
+  }
+  h2.left-text {
+    font-size: 44px;
+    line-height: 30px;
+    font-family: "Aclonica", sans-serif;
+  }
+  h3.dnw {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    font-family: "Aclonica", sans-serif;
+  }
+  h6.www {
+    font-size: 20px;
+    font-family: "Aclonica", sans-serif;
+  }
+  .bottom {
+    width: 100%;
+    padding: 10px 8px 10px;
+  }
+
+  h6.ncr {
+    text-align: left;
+    padding: 15px 4px 16px;
+    width: 28%;
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Noto+Serif:ital,wght@1,700&display=swap");
+
+.contact-container {
+  width: 100%;
+  height: 100%;
+  background: yellow;
+}
+input.form-control {
+  width: 50%;
+  height: 70px;
+
+  background: #ff8013;
+  padding: 0px 10px 0px;
+}
+
+textarea.form-control {
+  width: 50%;
+  height: 100px;
+
+  background: #ff8013;
+  padding: 0px 10px 0px;
+}
+
+.contact-container {
+  width: 100%;
+  height: 100%;
+  background: #ff8013;
+  padding: 50px 60px 60px;
+}
+form#contact-form {
+  padding: 10px;
+}
+input.form-control.submit {
+  width: 23%;
+  height: 71px;
+  padding: 0px 10px 0px;
+  background: #ff8013;
+  color: white;
+  font-size: 22px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: -5px 5px #a63207;
+}
+
+h1.contact {
+  color: white;
+  font-size: 80px;
+  text-shadow: -2px -2px white;
+  font-weight: 500;
+  font-family: "Noto Serif", serif;
+}
+
+b.c {
+  color: deepskyblue;
+}
+p.get {
+  font-size: 16px;
+  width: 46%;
+  color: #edc288;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 540px) {
+  h1.contact {
+    color: white;
+    font-size: 52px;
+    text-shadow: -2px -2px white;
+    font-weight: 500;
+    font-family: "Noto Serif", serif;
+  }
+  p.get {
+    font-size: 16px;
+    width: 90%;
+    color: #edc288;
+    font-size: 18px;
+  }
+  input.form-control {
+    width: 90%;
+    height: 70px;
+    background: #ff8013;
+    padding: 0px 7px 0px;
+  }
+  textarea.form-control {
+    width: 90%;
+    height: 100px;
+    background: #ff8013;
+    padding: 0px 10px 0px;
+  }
+  input.form-control.submit {
+    width: 75%;
+    height: 71px;
+    padding: 0px 10px 0px;
+    background: #ff8013;
+    color: white;
+    font-size: 22px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: -5px 5px #a63207;
+  }
+}
+
+/* bottom.css */
+
+.container-bottom {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #3cbce6;
+  color: white;
+  padding: 100px 100px 100px;
+}
+.bottom {
+  width: 100%;
+  padding: 10px 0px 10px;
+}
+.bottom-right {
+  width: 100%;
+  padding: 10px 10px 10px;
+}
+p.left-para {
+  font-size: 19px;
+  line-height: 30px;
+  width: 80%;
+}
+p.right-para-1 {
+  font-size: 19px;
+  line-height: 30px;
+  width: 90%;
+}
+p.right-para-2 {
+  font-size: 19px;
+  line-height: 30px;
+  width: 90%;
+}
+button.wa {
+  width: 180px;
+  height: 63px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: -9px 2px #b3a9a9;
+  font-size: 24px;
+}
+fab,
+.far {
+  font-weight: 400;
+  font-size: 25px;
+}
+h6.www {
+  font-size: 25px;
+  font-family: "Aclonica", sans-serif;
+}
+h3.dnw {
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 35px;
+  font-family: "Aclonica", sans-serif;
+}
+h2.left-text {
+  font-size: 54px;
+  font-family: "Aclonica", sans-serif;
+}
+
+@media screen and (max-width: 912px) {
+  .container-bottom {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background: #3cbce6;
+    color: white;
+    padding: 100px 100px 100px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  input.form-control.submit {
+    /* width: 66%; */
+    height: 71px;
+    padding: 0px 10px 0px;
+    background: #ff8013;
+    color: white;
+    font-size: 22px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: -5px 5px #a63207;
+  }
+  .container-bottom {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background: #3cbce6;
+    color: white;
+    padding: 100px 12px 100px;
+  }
+  p.left-para {
+    font-size: 16px;
+    line-height: 18px;
+    width: 80%;
+  }
+  h2.left-text {
+    font-size: 44px;
+    line-height: 30px;
+    font-family: "Aclonica", sans-serif;
+  }
+  h3.dnw {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    font-family: "Aclonica", sans-serif;
+  }
+  h6.www {
+    font-size: 20px;
+    font-family: "Aclonica", sans-serif;
+  }
+  .bottom {
+    width: 100%;
+    padding: 10px 8px 10px;
+  }
+
+  h6.ncr {
+    text-align: left;
+    padding: 15px 4px 16px;
+    width: 28%;
+    font-size: 11px;
+  }
+}

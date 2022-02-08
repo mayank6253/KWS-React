@@ -1,0 +1,61 @@
+.admin-container {
+  background: #8debeb;
+}
+.scrpit-container {
+  background: white;
+}
+.scrpit-para {
+  color: #7a7a74;
+  padding: 5px 70px 5px;
+  font-size: 18px;
+}
+.scrpit-container {
+  border: 2px solid black;
+}
+.trading-container {
+  background: #72d2f1;
+}
+h4.kyc {
+  color: white;
+}
+h3.otc-trading {
+  color: white;
+}
+h4.security {
+  color: white;
+}
+p.trading-para {
+  color: #f6f6f9;
+}
+p.sign-para {
+  color: #f6f6f9;
+}
+p.security-para {
+  color: #f6f6f9;
+}
+h5.admin {
+  color: black;
+}
+
+@media screen and (max-width: 540px) {
+  h6.market {
+    font-size: 24px;
+  }
+  h6.update {
+    font-size: 23px;
+  }
+  h6.category {
+    font-size: 23px;
+  }
+  h6.management {
+    font-size: 23px;
+  }
+  p.admin-para {
+    padding: 7px 10px 7px;
+  }
+  p.scrpit-para {
+    color: black;
+    padding: 5px 15px 5px;
+    font-size: 20px;
+  }
+}

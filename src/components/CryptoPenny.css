@@ -1,0 +1,79 @@
+.scrpit-container {
+  background: #3e3b3b;
+}
+h5.scrpit {
+  font-size: 26px;
+  color: black;
+}
+p.scrpit-para {
+  color: white;
+  padding: 5px 70px 5px;
+  font-size: 18px;
+}
+h6.campaign {
+  color: black;
+  font-size: 20px;
+  padding: 5px 0px 8px;
+  text-shadow: 1px 0 black;
+}
+p.campaign-para {
+  color: #c9c9be;
+  padding: 4px 80px 7px;
+}
+h6.interaction {
+  color: black;
+  font-size: 20px;
+  padding: 5px 0px 8px;
+  text-shadow: 1px 0 black;
+}
+p.inertaction-para {
+  color: #c9c9be;
+  padding: 4px 80px 7px;
+}
+h6.currencies {
+  color: black;
+  font-size: 20px;
+  padding: 5px 0px 8px;
+  text-shadow: 1px 0 black;
+}
+p.currency-para {
+  color: #c9c9be;
+  padding: 4px 80px 7px;
+}
+h6.dynamic {
+  color: black;
+  font-size: 20px;
+  padding: 5px 0px 8px;
+  text-shadow: 1px 0 black;
+}
+p.dynamic {
+  color: #c9c9be;
+  padding: 4px 80px 7px;
+}
+
+@media screen and (max-width: 540px) {
+  p.scrpit-para {
+    color: white;
+    padding: 5px 15px 5px;
+    font-size: 20px;
+  }
+  p.campaign-para {
+    color: #c9c9be;
+    padding: 4px 30px 7px;
+  }
+  p.inertaction-para {
+    color: #c9c9be;
+    padding: 4px 30px 7px;
+    font-size: 19px;
+  }
+  p.currency-para {
+    color: #c9c9be;
+    padding: 4px 30px 7px;
+    font-size: 19px;
+  }
+  p.dynamic {
+    color: #c9c9be;
+    padding: 4px 30px 7px;
+    font-size: 19px;
+  }
+}

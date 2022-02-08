@@ -1,0 +1,28 @@
+.paragraph {
+  padding: 22px 30px 20px;
+  width: 100%;
+  color: #787272;
+  line-height: 30px;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 540px) {
+  h4.cf-software {
+    text-align: center;
+    padding-top: 14px;
+    font-size: 24px;
+  }
+  p.tm-para {
+    color: #bbbbbb;
+  }
+  svg.fa {
+    color: #d64a15;
+    transform: translate(-8px, 0px);
+  }
+  h6.ncr {
+    text-align: left;
+    padding: 15px 4px 8px;
+    width: 28%;
+    font-size: 21px;
+  }
+}

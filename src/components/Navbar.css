@@ -1,0 +1,30 @@
+.navbar-contanier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  background: #93b2eb;
+}
+a.dropdown-item {
+  color: white;
+  transition: 0.4s ease-out;
+}
+
+a.dropdown-item:hover {
+  color: plum;
+  transform: rotate(15deg);
+  /* transform:skewY(10deg); */
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  background: #63bcd9;
+}
+img,
+svg {
+  vertical-align: middle;
+  /* height: 165%; */
+  transform: translate(13px, 0px);
+}
